@@ -1,7 +1,7 @@
 <?php
 // method persentase nilai akhir
 function persentase($_uts, $_uas, $_tugas){
-    $result = (30 * (int)$_uts / 100) + (30 * (int)(int)$_uas / 100) + (30 * (int)$_tugas / 100);
+    $result = (30 * (int)$_uts / 100) + (30 * (int)$_uas / 100) + (30 * (int)$_tugas / 100);
     return $result;
 }
 
